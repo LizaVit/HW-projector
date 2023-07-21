@@ -37,8 +37,8 @@ class Restaurant:
             print(f"{dish}: ${price}")
 
 class FastFood(Restaurant):
-    def __init__(self, name, ciisine, menu, drive_thru):
-        super().__init__(name, ciisine, menu)
+    def __init__(self, name, cuisine, menu, drive_thru):
+        super().__init__(name, cuisine, menu)
         self.drive_thru = drive_thru
 
     def order(self, dish_name, quantity):
